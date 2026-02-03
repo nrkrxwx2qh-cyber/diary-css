@@ -1,1 +1,32 @@
+/* ページ全体の余白 */
+body{
+  margin: 0;
+  padding: 24px 18px;
+  background: #fff;
+  color: #222;
+  font-family: system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif;
+}
 
+/* 罫線ノート */
+.note{
+  max-width: 780px;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 2.0;
+  padding: 10px 14px 16px;
+
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent calc(2.0em - 1px),
+    #cfcfcf calc(2.0em - 1px),
+    #cfcfcf 2.0em
+  );
+
+  background-position: 0 0.35em;
+  background-repeat: repeat;
+}
+
+.note p{
+  margin: 0;
+}
