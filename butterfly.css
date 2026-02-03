@@ -1,3 +1,43 @@
+/* ===== 表紙デザイン ===== */
+.cover{
+  margin: 2em 0;
+  padding: .5em 1em;
+  background: #dbdbdb;
+  box-shadow: 0 0 10px #cacaca;
+}
+
+.cover-inner{
+  text-align: center;
+}
+
+/* タイトル */
+.cover-title{
+  font-size: 1.6em;
+  font-weight: bold;
+  line-height: 1.6;
+  margin-bottom: .3em;
+}
+
+/* 色分け */
+.cover-title .c1{ color:#752B35; }
+.cover-title .c2{ color:#5E1013; }
+.cover-title .c3{ color:#BF6067; }
+.cover-title .c4{ color:#991E21; }
+
+/* サブコピー */
+.cover-sub{
+  font-size: .8em;
+  color: #752B35;
+  margin-bottom: .2em;
+}
+
+/* 注意書き */
+.cover-note{
+  font-size: .7em;
+  color: #999;
+}
+
+
 /* ページ全体の余白 */
 body{
   margin: 0;
