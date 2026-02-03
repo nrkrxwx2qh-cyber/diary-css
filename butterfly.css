@@ -1,29 +1,45 @@
-/* ページ全体の余白 */
-body{
-  margin: 0;
-  padding: 24px 18px;
-  background: #fff;
-  color: #222;
-  font-family: system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif;
-}
-
-/* 罫線ノート */
 .note{
   max-width: 780px;
   margin: 0 auto;
-  font-size: 20px;
-  line-height: 2.0;
-  padding: 10px 14px 16px;
+
+  font-size: 18px;          /* ① 文字を少し小さく */
+  line-height: 2.1;         /* 罫線間隔（ノート感） */
+
+  padding: 12px 16px 18px;  /* ② 上に少し余白 */
 
   background-image: repeating-linear-gradient(
     to bottom,
     transparent 0,
-    transparent calc(2.0em - 1px),
-    #cfcfcf calc(2.0em - 1px),
-    #cfcfcf 2.0em
+    transparent calc(2.1em - 1px),
+    rgba(0,0,0,0.35) calc(2.1em - 1px),
+    rgba(0,0,0,0.35) 2.1em
   );
 
-  background-position: 0 0.35em;
+  background-size: 100% 2.1em;
+
+  /* ③ 罫線を「----」っぽく */
+  background-image:
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent calc(2.1em - 1px),
+      repeating-linear-gradient(
+        to right,
+        rgba(0,0,0,0.35) 0,
+        rgba(0,0,0,0.35) 14px,
+        transparent 14px,
+        transparent 22px
+      ) calc(2.1em - 1px),
+      repeating-linear-gradient(
+        to right,
+        rgba(0,0,0,0.35) 0,
+        rgba(0,0,0,0.35) 14px,
+        transparent 14px,
+        transparent 22px
+      ) 2.1em
+    );
+
+  background-position: 0 0.4em; /* ② 文字と罫線の位置合わせ */
   background-repeat: repeat;
 }
 
