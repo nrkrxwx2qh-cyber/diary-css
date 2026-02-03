@@ -3,7 +3,7 @@ body{
   margin: 0;
   padding: 24px 18px;
   background: #fff;
-  color: #222;
+  color: #ccc;
   font-family: system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif;
 }
 
@@ -12,7 +12,7 @@ body{
   max-width: 780px;
   margin: 0 auto;
 
-  font-size: 18px;          /* ① 文字を少し小さく */
+  font-size: 10px;          /* ① 文字を少し小さく */
   line-height: 2.1;         /* 罫線間隔（ノート感） */
 
   padding: 12px 16px 18px;  /* ② 上に少し余白 */
