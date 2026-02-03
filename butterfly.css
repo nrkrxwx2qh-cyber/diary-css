@@ -8,51 +8,31 @@ body{
 }
 
 /* 罫線ノート */
-.note{
+
+  .note{
   max-width: 780px;
   margin: 0 auto;
 
-  font-size: 10px;          /* ① 文字を少し小さく */
-  line-height: 2.1;         /* 罫線間隔（ノート感） */
+  font-size: 18px;        /* 少し小さめ */
+  line-height: 2.1;       /* 行間＝罫線間隔 */
 
-  padding: 12px 16px 18px;  /* ② 上に少し余白 */
+  padding: 12px 16px 18px;
 
+  /* 罫線風・薄い実線 */
   background-image: repeating-linear-gradient(
     to bottom,
     transparent 0,
     transparent calc(2.1em - 1px),
-    rgba(0,0,0,0.35) calc(2.1em - 1px),
-    rgba(0,0,0,0.35) 2.1em
+    #e0e0e0 calc(2.1em - 1px),
+    #e0e0e0 2.1em
   );
 
-  background-size: 100% 2.1em;
-
-  /* ③ 罫線を「----」っぽく */
-  background-image:
-    repeating-linear-gradient(
-      to bottom,
-      transparent 0,
-      transparent calc(2.1em - 1px),
-      repeating-linear-gradient(
-        to right,
-        rgba(0,0,0,0.35) 0,
-        rgba(0,0,0,0.35) 14px,
-        transparent 14px,
-        transparent 22px
-      ) calc(2.1em - 1px),
-      repeating-linear-gradient(
-        to right,
-        rgba(0,0,0,0.35) 0,
-        rgba(0,0,0,0.35) 14px,
-        transparent 14px,
-        transparent 22px
-      ) 2.1em
-    );
-
-  background-position: 0 0.4em; /* ② 文字と罫線の位置合わせ */
+  background-position: 0 0.4em; /* 文字を罫線の少し上に */
   background-repeat: repeat;
 }
 
 .note p{
   margin: 0;
 }
+
+
