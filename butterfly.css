@@ -13,7 +13,7 @@ body{
   max-width: 780px;
   margin: 0 auto;
 
-  font-size: 18px;        /* 少し小さめ */
+  font-size: 10px;        /* 少し小さめ */
   line-height: 2.1;       /* 行間＝罫線間隔 */
 
   padding: 12px 16px 18px;
@@ -23,8 +23,8 @@ body{
     to bottom,
     transparent 0,
     transparent calc(2.1em - 1px),
-    #e0e0e0 calc(2.1em - 1px),
-    #e0e0e0 2.1em
+    ##ededed calc(2.1em - 1px),
+    ##ededed 2.1em
   );
 
   background-position: 0 0.4em; /* 文字を罫線の少し上に */
