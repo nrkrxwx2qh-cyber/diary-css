@@ -1,9 +1,11 @@
-/* ===== 表紙デザイン ===== */
+/* ===== 表紙デザイン（枠線版） ===== */
 .cover{
   margin: 2em 0;
-  padding: .5em 1em;
-  background: #dbdbdb;
-  box-shadow: 0 0 10px #cacaca;
+  padding: .8em 1em;
+
+  background: transparent;          /* 背景なし */
+  border: 1px solid #e0e0e0;         /* 薄いグレーの枠 */
+  box-shadow: none;                  /* 影なし（すっきり） */
 }
 
 .cover-inner{
