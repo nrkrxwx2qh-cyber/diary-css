@@ -5,6 +5,7 @@ body{
   background: #eee;
   color: #ccc;
   font-family: system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif;
+  font-size: 15px
 }
 
 /* 罫線ノート */
