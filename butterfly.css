@@ -1,3 +1,13 @@
+/* ページ全体の余白 */
+body{
+  margin: 0;
+  padding: 24px 18px;
+  background: #fff;
+  color: #222;
+  font-family: system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif;
+}
+
+/* 罫線ノート */
 .note{
   max-width: 780px;
   margin: 0 auto;
