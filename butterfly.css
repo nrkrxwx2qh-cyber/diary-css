@@ -2,8 +2,8 @@
 body{
   margin: 0;
   padding: 24px 18px;
-  background: #eee;
-  color: #ccc;
+  background: #fff;
+  color: #000;
   font-family: system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif;
   font-size: 15px
 }
@@ -24,8 +24,8 @@ body{
     to bottom,
     transparent 0,
     transparent calc(2.1em - 1px),
-    ##ededed calc(2.1em - 1px),
-    ##ededed 2.1em
+    #ededed calc(2.1em - 1px),
+    #ededed 2.1em
   );
 
   background-position: 0 0.4em; /* 文字を罫線の少し上に */
@@ -33,7 +33,7 @@ body{
 }
 
 .note p{
-  margin: 0;
+  margin: 0 ;
 }
 
 
